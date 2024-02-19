@@ -1,3 +1,4 @@
-a=10 
-b=5 
-print(a+b) 
+a = int(input()) 
+b= int(input())
+print("Ответ:", end=" ") 
+print(a, "+", b, "=", a+b) 
